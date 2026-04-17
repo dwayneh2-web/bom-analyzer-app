@@ -24,4 +24,4 @@ if uploaded_file is not None:
     if "Amount" in df.columns:
         st.subheader("High Values (Above Average)")
         high = df[df["Amount"] > df["Amount"].mean()]
-        st.write(high)s
+        st.write(high)
